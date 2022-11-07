@@ -1,0 +1,75 @@
+.cardmedia-style {
+  display: flex;
+
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.cardmedia-style > * {
+  flex: 1;
+}
+.root {
+  position: relative;
+  flex: 1;
+}
+.font {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.font-button {
+  position: absolute;
+  top: 70%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  left: 40%;
+}
+
+.font-button > .font-button1 {
+  color: white;
+  border: 1px solid white;
+  text-transform: none;
+}
+.font-button > .font-button1:hover {
+  background-color: white;
+  color: black;
+}
+.allign-text {
+  display: flex;
+
+  justify-content: space-between;
+  padding-top: 3%;
+}
+
+.cards2-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.title-icecream {
+  margin-left: 20px;
+  color: black;
+}
+
+.button-next {
+  text-transform: none;
+  padding-right: 5px;
+  color: black;
+}
+
+.btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards-container-merch {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.custom-button-group {
+  margin-bottom: 30px;
+}

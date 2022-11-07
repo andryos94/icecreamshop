@@ -1,0 +1,98 @@
+.Navbar .leftSide #hidden {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  max-height: 530px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--universal-white);
+  color: var(--universal-black);
+}
+.Navbar .leftSide #hidden a {
+  margin: 5px;
+}
+.links {
+  width: 100%;
+}
+.title-menu {
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  height: 80px;
+  border-bottom: 1px solid var(--dark);
+}
+.list-menu {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.list-menu > a {
+  padding: 10px;
+}
+#hidden {
+  display: none;
+}
+.close-menu {
+  margin-left: auto;
+  position: absolute;
+  right: 5px;
+  width: fit-content;
+  font-size: 24px;
+  cursor: pointer;
+  color: #cdd1d4;
+}
+
+/*
+@media only screen and (max-width: 650px) {
+  .Navbar .leftSide button {
+    display: flex;
+  }
+  .Navbar .leftSide .links {
+    display: none;
+  }
+}
+*/
+
+.Navbar .leftSide .links {
+  display: none;
+}
+
+@media only screen and (min-width: 766px) {
+  .btn-burger {
+    display: none;
+  }
+  .links {
+    display: none;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .links {
+    display: none;
+  }
+  .Navbar {
+    margin-right: 180px;
+  }
+}
+@media only screen and (min-width: 300px) {
+  .Navbar {
+    margin-right: 60px;
+    margin-left: 0px;
+  }
+}
+@media only screen and (min-width: 766px) {
+  .leftSide {
+    display: none;
+  }
+  .Navbar {
+    margin-right: 0px;
+  }
+}
+
+.btn-burger {
+  border: none;
+  background-color: white;
+  font-size: 20px;
+  color: var(--dark);
+}

@@ -1,0 +1,58 @@
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.title-container {
+  color: #343a40;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.image-style {
+  width: 100%;
+}
+
+.text-to-image {
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.custom-button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.previous-button {
+  background-color: #ffffff;
+  color: #6c757d;
+  text-transform: none;
+  border: 0.5px solid #e2e6ea;
+}
+
+.next-button {
+  background-color: #ffffff;
+  text-transform: none;
+  border: 0.5px solid #e2e6ea;
+  color: #007bff;
+}
+
+.next-button:hover {
+  background-color: #e2e6ea;
+}
+
+.first-donut-page-button {
+  background-color: #007bff;
+  color: #ffffff;
+}

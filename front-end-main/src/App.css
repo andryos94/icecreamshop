@@ -1,0 +1,44 @@
+:root {
+  --primary: #007bff;
+  --primary-hover: #0069d9;
+  --primary-disable: #58aaff;
+  --secondary: #6c757d;
+  --secondary-hover: #5a6268;
+  --secondary-disable: #b0b6ba;
+  --success: #28a745;
+  --success-hover: #218838;
+  --success-disable: #74c686;
+  --danger: #dc3545;
+  --danger-hover: #c82333;
+  --danger-disable: #e97b86;
+  --warning: #ffc107;
+  --warning-hover: #e0a800;
+  --warning-disable: #ffd75e;
+  --info: #17a2b8;
+  --info-hover: #138496;
+  --info-disable: #67c3d0;
+  --dark: #343a40;
+  --dark-hover: #23272b;
+  --dark-disable: #7a7e83;
+  --light: #f8f9fa;
+  --light-hover: #e2e6ea;
+  --light-disable: #fafcfc;
+  --universal-black: #000000;
+  --universal-white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Helvetica Neue";
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: var(--primary-hover);
+}

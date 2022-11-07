@@ -1,0 +1,8 @@
+.idea
+.DS_Store
+.mvn
+mvnw
+mvnw.cmd
+HELP.md
+IceCreamShop.iml
+target
